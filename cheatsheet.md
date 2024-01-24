@@ -102,6 +102,11 @@ vault list auth/userpass/users
 vault policy list
 ```
 
+## Create a policy using autounseal.hcl
+```ps
+vault policy write autounseal autounseal.hcl
+```
+
 # Snapshot
 ## Create automated snapshot
 ```ps
