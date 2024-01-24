@@ -96,7 +96,8 @@ vault write auth/userpass/users/arthur password=dent
 vault list auth/userpass/users
 ```
 
-## List accessors https://developer.hashicorp.com/vault/docs/concepts/tokens#token-accessors
+## List accessors
+https://developer.hashicorp.com/vault/docs/concepts/tokens#token-accessors
 ```ps
 vault list /auth/token/accessors
 ```
